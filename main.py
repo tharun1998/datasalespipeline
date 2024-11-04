@@ -4,7 +4,7 @@ from google.cloud import storage
 app = Flask(__name__)
 
 # Configure the GCS bucket name
-GCS_BUCKET_NAME = 'bkt-sales-data'
+GCS_BUCKET_NAME = 'bkt_sales_dataa'
 
 # Initialize the Google Cloud Storage client
 storage_client = storage.Client()
